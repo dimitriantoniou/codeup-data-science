@@ -90,7 +90,7 @@ mermaid = 3
 bear = 5
 hercules = 1
 total = 3*(mermaid+bear+hercules)
-print total
+print (total)
 
 #Suppose you're working as a contractor for 3 companies: Google, Amazon and Facebook, 
 # they pay you a different rate per hour. 
@@ -100,36 +100,36 @@ print total
 # How much will you receive in payment for this week? 
 # You worked 10 hours for Facebook, 6 hours for Google and 4 hours for Amazon.
 
-google_rate=400
-google_hours=6
-amazon_rate=380
-amazon_hours=4
-facebook_rate=350
-facebook_hours=10
+#google_rate=400
+#google_hours=6
+#amazon_rate=380
+#amazon_hours=4
+#facebook_rate=350
+#facebook_hours=10
 
-wages=google_rate*google+hours+amazon_rate*amazon_hours+facebook_rate*facebook_hours 
+#wages=google_rate*google+hours+amazon_rate*amazon_hours+facebook_rate*facebook_hours 
 
 #A student can be enrolled to a class only if the class is not full and 
 # the class schedule does not conflict with her current schedule.
 
-if (full=false and conflict=false){
-    enrolled=true
-}
+#if (full===false and conflict===false){
+ #   enrolled=true
+#}
 
 
 #A product offer can be applied only if people buys more than 2 items, 
 # and the offer has not expired. 
 # Premium members do not need to buy a specific amount of products.
 
-if(premium === true){
-    offer=true
-}else{
-    if(items >=2 and expired===false){
-        offer=true
-    }else{
-        offer=false
-    }
-}
+#if(premium === true){
+ #   offer=true
+#}else{
+ #   if(items >=2 and expired===false){
+  #      offer=true
+   # }else{
+    #    offer=false
+    #}
+#}
 
 #reate a variable that holds a boolean value for each of the following conditions:
 
