@@ -47,6 +47,12 @@ capitalize_consonant('hello')
 capitalize_consonant('aww')
 
 #5 Define a function named calculate_tip. It should accept a tip percentage (a number between 0 and 1) and the bill total, and return the amount to tip.
+def calculate_tip(a,b):
+    print ("amount to tip is: %d" %(a*b))
+    return a*b
+
+calculate_tip(.2,10)
+
 #6 Define a function named apply_discount. It should accept a original price, and a discount percentage, and return the price after the discount is applied.
 #7 Define a function named handle_commas. It should accept a string that is a number that contains commas in it as input, and return a number as output.
 # Define a function named get_letter_grade. It should accept a number and return the letter grade associated with that number (A-F).
